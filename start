@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save the Planet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Save the Planet 🌍</h1>
+        <p>Accumulatez des Points Écologiques pour aider à sauver la planète!</p>
+    </header>
+
+    <main>
+        <div id="game-container">
+            <p>Points Écologiques (PE) : <span id="ecoPoints">0</span></p>
+            <button id="actionButton">Accomplir une Action Écologique</button>
+
+            <div id="upgrades">
+                <h2>Projets Écologiques</h2>
+                <button class="upgrade" id="plantTree" disabled>Planter un Arbre 🌳 (100 PE)</button>
+                <button class="upgrade" id="solarPanels" disabled>Installer des Panneaux Solaires ☀️ (500 PE)</button>
+                <button class="upgrade" id="cleanOceans" disabled>Nettoyer les Océans 🌊 (1000 PE)</button>
+            </div>
+
+            <div id="donations">
+                <h2>Donations Mondiales 🌱</h2>
+                <p>Total des Dons : <span id="totalDonations">0</span> €</p>
+                <button id="donateButton">Faire un Don de 10 €</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Créé pour sensibiliser à la protection de l'environnement.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
